@@ -1,6 +1,6 @@
 import image from "../assets/images/puppy.jpg";
 
-function imagem() {
+function Imagem() {
     return (
     <div class="card" style={{width: '18rem'}}>
         <img src={image} class="card-img-top" alt="dog"/>
@@ -13,5 +13,5 @@ function imagem() {
 
 }
 
-export default imagem();  
+export default Imagem;  
 

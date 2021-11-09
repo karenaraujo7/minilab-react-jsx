@@ -1,26 +1,26 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import hello from "./Greeting";
-import profile from "./Profile";
-import list from "./ToDoList";
-import emotionMeter from "./EmotionMeter"
+import Hello from "./Greeting";
+import Imagem from "./Profile";
+import Lista from "./ToDoList";
+import Emoji from "./EmotionMeter"
 
 
 function App() {
   return (
     <div className="container mt-5 mb-5 col-6">
       <small>Interpolação de variáveis</small>
-      {hello}
+      <Hello/>
       <small>Imagens</small>
       <hr />
-      {profile}
+      <Imagem/>
 
       <small>Renderização de listas</small>
       <hr />
-      {list}
+      <Lista/>
 
       <small>Renderização condicional</small>
       <hr />
-      {emotionMeter}
+      <Emoji/>
     </div>
   );
 }
